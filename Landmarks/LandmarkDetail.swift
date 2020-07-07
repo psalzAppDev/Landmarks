@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LandmarkDetail.swift
 //  Landmarks
 //
 //  Created by Peter Salz on 07.07.20.
@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    
     var body: some View {
         
         VStack {
@@ -25,7 +26,7 @@ struct LandmarkDetail: View {
                 Text("Turtle Rock")
                     .font(.title)
                 
-                HStack {
+                HStack(alignment: .top) {
                     Text("Joshua Tree National Park")
                         .font(.subheadline)
                     
@@ -42,7 +43,7 @@ struct LandmarkDetail: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkDetail()
     }
