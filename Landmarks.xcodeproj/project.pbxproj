@@ -34,6 +34,7 @@
 		D04918A424B4D8A100B8B4DE /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = D04918A324B4D8A100B8B4DE /* landmarkData.json */; };
 		D04918A624B501D400B8B4DE /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918A524B501D400B8B4DE /* UserData.swift */; };
 		D04918A824B506DA00B8B4DE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918A724B506DA00B8B4DE /* HexagonParameters.swift */; };
+		D04918AA24B5079100B8B4DE /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918A924B5079100B8B4DE /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		D04918A324B4D8A100B8B4DE /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		D04918A524B501D400B8B4DE /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		D04918A724B506DA00B8B4DE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		D04918A924B5079100B8B4DE /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				D049187A24B4B48700B8B4DE /* CircleImage.swift */,
 				D049187C24B4B5BA00B8B4DE /* MapView.swift */,
 				D049189F24B4D1E100B8B4DE /* LandmarkRow.swift */,
+				D04918A924B5079100B8B4DE /* Badge.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D049189E24B4CB3800B8B4DE /* Landmark.swift in Sources */,
+				D04918AA24B5079100B8B4DE /* Badge.swift in Sources */,
 				D049186724B4B22C00B8B4DE /* AppDelegate.swift in Sources */,
 				D049189C24B4CB2F00B8B4DE /* Data.swift in Sources */,
 				D049187B24B4B48700B8B4DE /* CircleImage.swift in Sources */,
