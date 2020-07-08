@@ -39,6 +39,7 @@
 		D04918AF24B59C0300B8B4DE /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918AE24B59C0300B8B4DE /* BadgeSymbol.swift */; };
 		D04918B124B5A11600B8B4DE /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918B024B5A11600B8B4DE /* RotatedBadgeSymbol.swift */; };
 		D04918B324B5A39300B8B4DE /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = D04918B224B5A39200B8B4DE /* hikeData.json */; };
+		D04918B524B5A3B800B8B4DE /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918B424B5A3B800B8B4DE /* Hike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		D04918AE24B59C0300B8B4DE /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		D04918B024B5A11600B8B4DE /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		D04918B224B5A39200B8B4DE /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		D04918B424B5A3B800B8B4DE /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			children = (
 				D049189B24B4CB2F00B8B4DE /* Data.swift */,
 				D049189D24B4CB3800B8B4DE /* Landmark.swift */,
+				D04918B424B5A3B800B8B4DE /* Hike.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				D049189C24B4CB2F00B8B4DE /* Data.swift in Sources */,
 				D049187B24B4B48700B8B4DE /* CircleImage.swift in Sources */,
 				D04918A824B506DA00B8B4DE /* HexagonParameters.swift in Sources */,
+				D04918B524B5A3B800B8B4DE /* Hike.swift in Sources */,
 				D04918A224B4D2F400B8B4DE /* LandmarkList.swift in Sources */,
 				D04918AF24B59C0300B8B4DE /* BadgeSymbol.swift in Sources */,
 				D04918B124B5A11600B8B4DE /* RotatedBadgeSymbol.swift in Sources */,
