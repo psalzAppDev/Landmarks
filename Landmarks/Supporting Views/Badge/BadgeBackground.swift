@@ -1,14 +1,14 @@
 //
-//  Badge.swift
+//  BadgeBackground.swift
 //  Landmarks
 //
-//  Created by Peter Salz on 07.07.20.
+//  Created by Peter Salz on 08.07.20.
 //  Copyright © 2020 Peter Salz App Development. All rights reserved.
 //
 
 import SwiftUI
 
-struct Badge: View {
+struct BadgeBackground: View {
     
     var body: some View {
         
@@ -54,7 +54,7 @@ struct Badge: View {
             .aspectRatio(1, contentMode: .fit)
         }
     }
-    
+        
     static let gradientStart = Color(red: 239.0 / 255.0,
                                      green: 120.0 / 255.0,
                                      blue: 221.0 / 255.0)
@@ -64,8 +64,8 @@ struct Badge: View {
                                    blue: 120.0 / 255.0)
 }
 
-struct Badge_Previews: PreviewProvider {
+struct BadgeBackground_Previews: PreviewProvider {
     static var previews: some View {
-        Badge()
+        BadgeBackground()
     }
 }
