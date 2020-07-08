@@ -45,6 +45,7 @@
 		D04918BB24B5A89500B8B4DE /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918BA24B5A89500B8B4DE /* HikeDetail.swift */; };
 		D04918BD24B5A96800B8B4DE /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918BC24B5A96800B8B4DE /* HikeView.swift */; };
 		D04918BF24B5CA7800B8B4DE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918BE24B5CA7800B8B4DE /* Home.swift */; };
+		D04918C124B5CBAC00B8B4DE /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918C024B5CBAC00B8B4DE /* CategoryRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		D04918BA24B5A89500B8B4DE /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		D04918BC24B5A96800B8B4DE /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		D04918BE24B5CA7800B8B4DE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D04918C024B5CBAC00B8B4DE /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				D049189F24B4D1E100B8B4DE /* LandmarkRow.swift */,
 				D04918B824B5A5A800B8B4DE /* HikeGraph.swift */,
 				D04918B624B5A4E400B8B4DE /* GraphCapsule.swift */,
+				D04918C024B5CBAC00B8B4DE /* CategoryRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04918C124B5CBAC00B8B4DE /* CategoryRow.swift in Sources */,
 				D049189E24B4CB3800B8B4DE /* Landmark.swift in Sources */,
 				D04918B924B5A5A800B8B4DE /* HikeGraph.swift in Sources */,
 				D04918AA24B5079100B8B4DE /* Badge.swift in Sources */,
