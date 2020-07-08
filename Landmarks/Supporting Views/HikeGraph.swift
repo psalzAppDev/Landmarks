@@ -25,6 +25,15 @@ func magnitude(of range: Range<Double>) -> Double {
     range.upperBound - range.lowerBound
 }
 
+extension Animation {
+    
+    static func ripple(index: Int) -> Animation {
+        Animation.spring(dampingFraction: 0.5)
+            .speed(2)
+            .delay(0.03 * Double(index))
+    }
+}
+
 struct HikeGraph: View {
     
     var hike: Hike
@@ -76,6 +85,8 @@ struct HikeGraph: View {
                         overallRange: overallRange
                     )
                     .colorMultiply(self.color)
+                    .transition(.slide)
+                    .animation(.ripple(index: index))
                 }
                 .offset(x: 0, y: proxy.size.height * heightRatio)
             }
