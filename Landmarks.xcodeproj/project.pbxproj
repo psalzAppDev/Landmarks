@@ -50,6 +50,7 @@
 		D04918C524B601B600B8B4DE /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918C424B601B600B8B4DE /* ProfileHost.swift */; };
 		D04918C724B6021800B8B4DE /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918C624B6021800B8B4DE /* ProfileSummary.swift */; };
 		D04918C924B6030500B8B4DE /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918C824B6030500B8B4DE /* HikeBadge.swift */; };
+		D04918CB24B606E600B8B4DE /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918CA24B606E600B8B4DE /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		D04918C424B601B600B8B4DE /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		D04918C624B6021800B8B4DE /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		D04918C824B6030500B8B4DE /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		D04918CA24B606E600B8B4DE /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				D04918BE24B5CA7800B8B4DE /* Home.swift */,
 				D04918C624B6021800B8B4DE /* ProfileSummary.swift */,
 				D04918C424B601B600B8B4DE /* ProfileHost.swift */,
+				D04918CA24B606E600B8B4DE /* ProfileEditor.swift */,
 				D04918C824B6030500B8B4DE /* HikeBadge.swift */,
 				D04918A724B506DA00B8B4DE /* HexagonParameters.swift */,
 				D049186C24B4B22D00B8B4DE /* Assets.xcassets */,
@@ -329,6 +332,7 @@
 				D04918C724B6021800B8B4DE /* ProfileSummary.swift in Sources */,
 				D04918A624B501D400B8B4DE /* UserData.swift in Sources */,
 				D049186B24B4B22C00B8B4DE /* LandmarkDetail.swift in Sources */,
+				D04918CB24B606E600B8B4DE /* ProfileEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
