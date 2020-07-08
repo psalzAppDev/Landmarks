@@ -114,7 +114,6 @@
 				D049186824B4B22C00B8B4DE /* SceneDelegate.swift */,
 				D049186A24B4B22C00B8B4DE /* LandmarkDetail.swift */,
 				D04918A124B4D2F400B8B4DE /* LandmarkList.swift */,
-				D04918A524B501D400B8B4DE /* UserData.swift */,
 				D04918A724B506DA00B8B4DE /* HexagonParameters.swift */,
 				D049186C24B4B22D00B8B4DE /* Assets.xcassets */,
 				D049187124B4B22D00B8B4DE /* LaunchScreen.storyboard */,
@@ -172,6 +171,7 @@
 			children = (
 				D049189B24B4CB2F00B8B4DE /* Data.swift */,
 				D049189D24B4CB3800B8B4DE /* Landmark.swift */,
+				D04918A524B501D400B8B4DE /* UserData.swift */,
 				D04918B424B5A3B800B8B4DE /* Hike.swift */,
 			);
 			path = Models;
