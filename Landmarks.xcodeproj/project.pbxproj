@@ -43,6 +43,7 @@
 		D04918B724B5A4E400B8B4DE /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918B624B5A4E400B8B4DE /* GraphCapsule.swift */; };
 		D04918B924B5A5A800B8B4DE /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918B824B5A5A800B8B4DE /* HikeGraph.swift */; };
 		D04918BB24B5A89500B8B4DE /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918BA24B5A89500B8B4DE /* HikeDetail.swift */; };
+		D04918BD24B5A96800B8B4DE /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918BC24B5A96800B8B4DE /* HikeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		D04918B624B5A4E400B8B4DE /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		D04918B824B5A5A800B8B4DE /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		D04918BA24B5A89500B8B4DE /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		D04918BC24B5A96800B8B4DE /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				D049186824B4B22C00B8B4DE /* SceneDelegate.swift */,
 				D049186A24B4B22C00B8B4DE /* LandmarkDetail.swift */,
 				D04918A124B4D2F400B8B4DE /* LandmarkList.swift */,
+				D04918BC24B5A96800B8B4DE /* HikeView.swift */,
 				D04918BA24B5A89500B8B4DE /* HikeDetail.swift */,
 				D04918A724B506DA00B8B4DE /* HexagonParameters.swift */,
 				D049186C24B4B22D00B8B4DE /* Assets.xcassets */,
@@ -295,6 +298,7 @@
 				D04918A224B4D2F400B8B4DE /* LandmarkList.swift in Sources */,
 				D04918AF24B59C0300B8B4DE /* BadgeSymbol.swift in Sources */,
 				D04918B124B5A11600B8B4DE /* RotatedBadgeSymbol.swift in Sources */,
+				D04918BD24B5A96800B8B4DE /* HikeView.swift in Sources */,
 				D049187D24B4B5BA00B8B4DE /* MapView.swift in Sources */,
 				D04918AC24B59B4900B8B4DE /* BadgeBackground.swift in Sources */,
 				D049186924B4B22C00B8B4DE /* SceneDelegate.swift in Sources */,
