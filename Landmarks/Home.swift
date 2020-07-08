@@ -17,10 +17,6 @@ struct CategoryHome: View {
                    by: { $0.category.rawValue })
     }
     
-    var featured: [Landmark] {
-        landmarkData.filter({ $0.isFeatured })
-    }
-    
     @State var showingProfile = false
     
     var profileButton: some View {
