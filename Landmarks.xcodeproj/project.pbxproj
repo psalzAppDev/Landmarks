@@ -148,11 +148,8 @@
 			children = (
 				D049186624B4B22C00B8B4DE /* AppDelegate.swift */,
 				D049186824B4B22C00B8B4DE /* SceneDelegate.swift */,
-				D04918BE24B5CA7800B8B4DE /* Home.swift */,
 				D04918A724B506DA00B8B4DE /* HexagonParameters.swift */,
-				D04918D724B619A400B8B4DE /* PageViewController.swift */,
-				D04918D924B61A2B00B8B4DE /* PageView.swift */,
-				D04918DB24B6EC1B00B8B4DE /* PageControl.swift */,
+				D04918DD24B6F21B00B8B4DE /* Home */,
 				D04918CE24B6177F00B8B4DE /* Hike */,
 				D04918CD24B6170400B8B4DE /* Profile */,
 				D04918CC24B616FA00B8B4DE /* Landmark */,
@@ -264,6 +261,17 @@
 				D04918C824B6030500B8B4DE /* HikeBadge.swift */,
 			);
 			path = Hike;
+			sourceTree = "<group>";
+		};
+		D04918DD24B6F21B00B8B4DE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D04918BE24B5CA7800B8B4DE /* Home.swift */,
+				D04918D724B619A400B8B4DE /* PageViewController.swift */,
+				D04918D924B61A2B00B8B4DE /* PageView.swift */,
+				D04918DB24B6EC1B00B8B4DE /* PageControl.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
