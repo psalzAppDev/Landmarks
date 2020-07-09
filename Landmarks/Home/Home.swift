@@ -33,7 +33,7 @@ struct CategoryHome: View {
             List {
                 FeaturedLandmarks(landmarks: featured)
                     .scaledToFill()
-                    .frame(height: 200)
+                    .frame(height: 250)
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 
@@ -63,7 +63,9 @@ struct FeaturedLandmarks: View {
     var landmarks: [Landmark]
     
     var body: some View {
-        landmarks[0].image.resizable()
+        //landmarks[0].image.resizable()
+        PageView(landmarks.map({ FeatureCard(landmark: $0) }))
+            .aspectRatio(3 / 2, contentMode: .fit)
     }
 }
 
