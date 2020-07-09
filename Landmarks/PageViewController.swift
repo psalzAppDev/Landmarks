@@ -12,6 +12,7 @@ import UIKit
 struct PageViewController: UIViewControllerRepresentable {
     
     var controllers: [UIViewController]
+    @Binding var currentPage: Int
     
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
@@ -25,6 +26,7 @@ struct PageViewController: UIViewControllerRepresentable {
         )
         
         pageViewController.dataSource = context.coordinator
+        pageViewController.delegate = context.coordinator
         
         return pageViewController
     }
@@ -33,13 +35,15 @@ struct PageViewController: UIViewControllerRepresentable {
                                 context: Context) {
         
         uiViewController.setViewControllers(
-            [controllers[0]],
+            [controllers[currentPage]],
             direction: .forward,
             animated: true
         )
     }
     
-    class Coordinator: NSObject, UIPageViewControllerDataSource {
+    class Coordinator: NSObject,
+                       UIPageViewControllerDataSource,
+                       UIPageViewControllerDelegate {
         
         var parent: PageViewController
         
@@ -79,6 +83,21 @@ struct PageViewController: UIViewControllerRepresentable {
             }
             
             return parent.controllers[index + 1]
+        }
+        
+        func pageViewController(
+            _ pageViewController: UIPageViewController,
+            didFinishAnimating finished: Bool,
+            previousViewControllers: [UIViewController],
+            transitionCompleted completed: Bool
+        ) {
+            
+            if completed,
+               let visibleViewController = pageViewController.viewControllers?.first,
+               let index = parent.controllers.firstIndex(of: visibleViewController) {
+                
+                parent.currentPage = index
+            }
         }
     }
 }
