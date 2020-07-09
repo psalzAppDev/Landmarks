@@ -57,6 +57,7 @@
 		D04918D624B6189800B8B4DE /* turtlerock_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D04918D324B6189700B8B4DE /* turtlerock_feature.jpg */; };
 		D04918D824B619A400B8B4DE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918D724B619A400B8B4DE /* PageViewController.swift */; };
 		D04918DA24B61A2B00B8B4DE /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918D924B61A2B00B8B4DE /* PageView.swift */; };
+		D04918DC24B6EC1B00B8B4DE /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04918DB24B6EC1B00B8B4DE /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,7 @@
 		D04918D324B6189700B8B4DE /* turtlerock_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock_feature.jpg; sourceTree = "<group>"; };
 		D04918D724B619A400B8B4DE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		D04918D924B61A2B00B8B4DE /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		D04918DB24B6EC1B00B8B4DE /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				D04918A724B506DA00B8B4DE /* HexagonParameters.swift */,
 				D04918D724B619A400B8B4DE /* PageViewController.swift */,
 				D04918D924B61A2B00B8B4DE /* PageView.swift */,
+				D04918DB24B6EC1B00B8B4DE /* PageControl.swift */,
 				D04918CE24B6177F00B8B4DE /* Hike */,
 				D04918CD24B6170400B8B4DE /* Profile */,
 				D04918CC24B616FA00B8B4DE /* Landmark */,
@@ -378,6 +381,7 @@
 				D04918A024B4D1E100B8B4DE /* LandmarkRow.swift in Sources */,
 				D04918DA24B61A2B00B8B4DE /* PageView.swift in Sources */,
 				D04918C724B6021800B8B4DE /* ProfileSummary.swift in Sources */,
+				D04918DC24B6EC1B00B8B4DE /* PageControl.swift in Sources */,
 				D04918A624B501D400B8B4DE /* UserData.swift in Sources */,
 				D049186B24B4B22C00B8B4DE /* LandmarkDetail.swift in Sources */,
 				D04918CB24B606E600B8B4DE /* ProfileEditor.swift in Sources */,
